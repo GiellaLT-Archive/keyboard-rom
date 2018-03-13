@@ -1,0 +1,49 @@
+internalName: rom
+
+locales:
+  en:
+    name: &bundleName "Romany Keyboards"
+    description: "Mobile OS keyboards for the Romany language from the Divvun group at UiT."
+  nb:
+    name: "Romany tastatur"
+    description: "Mobiltastatur for Romany fra Divvun-gruppa."
+
+author: The Divvun Group, UiT Norgga árktalaš universitehta
+email: feedback@divvun.no
+
+copyright: (c) 2017 Divvun/Giellatekno/UiT
+organisation: UiT Norgga árktalaš universitehta
+
+layouts:
+  - rom-mob
+  - rom-mac
+  - rom-win
+
+version: 1.0
+build: 1
+
+targets:
+  android:
+    packageId: no.uit.giella.keyboards.rom
+    icon: images/rom-icon.pdf
+    keyStore: $GTPRIV/admin/dev-accounts/dev_keys/sami_keyboard.keystore
+    keyAlias: sami_keyboard
+
+  ios: &AppleID
+    codeSignId: "Developer ID Installer: The University of Tromso (2K5J2584NX)"
+    provisioningProfileId: Test
+    packageId: no.uit.giella.keyboards.rom
+    bundleName: *bundleName
+    icon: images/rom-icon.png
+
+  osx:
+    <<: *AppleID
+    icon: images/rom-keyboard-menu-icon.png
+    version: 0.1.0
+    resources: doc
+
+  win:
+    appName: *bundleName
+    version: 0.1.0
+    url: "http://divvun.no"
+    uuid: "replace-with-real-uuid-one-for-each-language"
