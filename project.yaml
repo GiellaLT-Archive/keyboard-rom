@@ -2,11 +2,11 @@ internalName: rom
 
 locales:
   en:
-    name: &bundleName "Romany Keyboards"
-    description: "Mobile OS keyboards for the Romany language from the Divvun group at UiT."
-  nb:
-    name: "Romany tastatur"
-    description: "Mobiltastatur for Romany fra Divvun-gruppa."
+    name: &bundleName "Romany Keyboards for Sweden"
+    description: "Keyboards for the Romany languages of Sweden: Arli, Kalo, Kelderasch and Lovari."
+  sv:
+    name: "Romska tangentbord för Sverige"
+    description: "Tangentbord för de romska språken i Sverige: arli, kalo, kelderasch och lovari."
 
 author: The Divvun Group, UiT Norgga árktalaš universitehta
 email: feedback@divvun.no

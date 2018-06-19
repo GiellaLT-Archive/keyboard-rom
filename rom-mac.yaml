@@ -2,9 +2,9 @@
 internalName: rom_SE_macos
 
 displayNames:
-  rom: Romani
-  sv: Romska
-  en: Romany
+  rom: Romani (Sverige)
+  sv: Romska (Sverige)
+  en: Romany (Sweden)
 
 locale: rom
 
