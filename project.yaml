@@ -17,7 +17,7 @@ organisation: UiT Norgga árktalaš universitehta
 layouts:
   - rom-mob
   - rom-mac
-  - rom-win
+  - rmn_SE
 
 version: 1.0
 build: 1
