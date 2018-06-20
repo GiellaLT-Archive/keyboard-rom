@@ -46,4 +46,4 @@ targets:
     appName: *bundleName
     version: 0.1.0
     url: "http://divvun.no"
-    uuid: "replace-with-real-uuid-one-for-each-language"
+    uuid: "1FDF3FF2-404F-42F6-9764-914C1E44548C"
