@@ -4,14 +4,15 @@ internalName: rmn-se
 displayNames:
   sv: romsk arli (Sverige)
   en: Romany Arli (Sweden)
+  rmn-SE: romsk arli (Sverige)
 
-locale: rmn_SE
+locale: rmn-SE
 
 supportedTargets: [win, x11, svg]
 
 targets:
   win:
-    locale: rmn_SE-Latn
+    locale: rmn-Latn-SE
     languageName: "romsk arli (Sverige)"
 
 modes:
