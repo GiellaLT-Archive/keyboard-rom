@@ -1,0 +1,161 @@
+displayNames:
+  rom: Romany
+  en: Romany
+modes:
+  mobile:
+    default: |
+      á š e r t y u i o p ŋ
+      a s d f g h j k l đ ŧ
+      ž z č c v b n m w
+    shift: |
+      Á Š E R T Y U I O P Ŋ
+      A S D F G H J K L Đ Ŧ
+      Ž Z Č C V B N M W
+  mac:
+    default: |
+      § 1 2 3 4 5 6 7 8 9 0 + ´
+        q w e r t y u i o p ž ¨
+        a s d f g h j k l š č '
+      < z x c v b n m , . -
+    shift: |
+      ° ! " # € % & / ( ) = ? `
+        Q W E R T Y U I O P Ž ^
+        A S D F G H J K L Š Č *
+      > Z X C V B N M ; : _
+    caps: |
+      § 1 2 3 4 5 6 7 8 9 0 + ´
+        Q W E R T Y U I O P Ž ^
+        A S D F G H J K L Š Č *
+      < Z X C V B N M , . -
+    alt: |
+      ¶ © @ £ $ ∞ § | [ ] ≈ ± ¨
+         Ω é ® † µ ü ı œ π å ~
+         ß ∂ ƒ ¸ ˛ √ ª ﬁ ö ä @
+      ≤ ÷ ≈ ç ‹ › ‘ ’ ‚ … –
+    alt+shift: |
+      • ¡ ” ¥ ¢ ‰ ¶ \ { } ≠ ¿ ^
+        ° ˝ É √ ‡ ˜ Ü ˆ Œ ∏ Å ^
+        ◊ ∑ ∆ ∫ ¯ ˘ ¬ º ﬂ Ö Ä ’
+      ≥ ⁄ ˇ Ç « » “ ” „ · —
+    caps+alt: |
+      ¶ © @ £ $ ∞ § | [ ] ≈ ± ¨
+        Q Ω É ® † µ Ü ı Œ π Å ~
+         ß ∂ ƒ ¸ ˛ √ ª ﬁ Ö Ä ™
+      ≤ ÷ ≈ Ç ‹ › ‘ ’ ‚ … –
+    ctrl: |
+      < 1      2      3     4      5      6      7      8     9     0      +      ´
+        \u{11} \u{17} \u{5} \u{12} \u{14} \u{19} \u{15} \u{9} \u{F} \u{10} \u{1D} ~
+        \u{1}  \u{13} \u{4} \u{6}  \u{7}  \u{8}  \u{A}  \u{B} \u{C} \u{1C} \u{1B} '
+      < \u{1A} \u{18} \u{3} \u{16} \u{2}  \u{E}  \u{D}  ,     .     \u{1F}
+    cmd: |
+      § 1 2 3 4 5 6 7 8 9 0 + ´
+        q w e r t y u i o p å ¨
+        a s d f g h j k l ö ä '
+      < z x c v b n m , . -
+    cmd+shift: |
+      ° ! " # € % & / ( ) = ? `
+        Q W E R T Y U I O P Å ^
+        A S D F G H J K L Ö Ä *
+      > Z X C V B N M ; : _
+    cmd+alt: |
+      ¶ © ™ £ $ ∞ § | [ ] ≈ ± ´
+        • Ω é ® † µ ü ı œ π ˙ ~
+         ß ∂ ƒ ¸ ˛ √ ª ﬁ ø æ @
+      ≤ ÷ ≈ ç ‹ › ‘ ’ ‚ … –
+    cmd+alt+shift: |
+      • ¡ ” ¥ ¢ ‰ ¶ \ { } ≠ ¿ `
+        ° ˝ É √ ‡ ˜ Ü ˆ Œ ∏ ˚ ^
+        ◊ ∑ ∆ ∫ ¯ ˘ ¬ º ﬂ Ø Æ ’
+      ≥ ⁄ ˇ Ç « » “ ” „ · —
+transforms:
+  '`':
+    ' ': '`'
+    a: à
+    A: À
+    e: è
+    E: È
+    i: ì
+    I: Ì
+    o: ò
+    O: Ò
+    u: ù
+    U: Ù
+  ´:
+    ' ': ´
+    a: á
+    A: Á
+    e: é
+    E: É
+    i: í
+    I: Í
+    o: ó
+    O: Ó
+    u: ú
+    U: Ú
+    'y': ý
+    'Y': Ý
+  ^:
+    ' ': ^
+    a: â
+    A: Â
+    e: ê
+    E: Ê
+    i: î
+    I: Î
+    o: ô
+    O: Ô
+    u: û
+    U: Û
+  ¨:
+    ' ': ¨
+    a: ä
+    A: Ä
+    e: ë
+    E: Ë
+    i: ï
+    I: Ï
+    o: ö
+    O: Ö
+    u: ü
+    U: Ü
+    'y': ÿ
+    'Y': Ÿ
+  '~':
+    ' ': '~'
+    a: ã
+    A: Ã
+    'n': ñ
+    'N': Ñ
+    o: õ
+    O: Õ
+longpress:
+  Á: Q
+  A: Æ Ä Å
+  Č: X
+  O: Ø Ö
+  á: q
+  a: æ ä å
+  č: x
+  o: ø ö
+strings:
+  space: gaska
+  return: linnjámolsun
+space:
+  mac:
+    alt: '\u{A0}'
+    alt+shift: '\u{A0}'
+    caps+alt: '\u{A0}'
+    cmd+alt: '\u{A0}'
+deadKeys:
+  mac:
+    default: [´]
+    shift: ['`']
+    caps: [´]
+    alt: [¨, '~']
+    alt+shift: [^]
+    caps+alt: [¨, '~']
+targets:
+  ios:
+    legacyName: rom-mob
+  android:
+    legacyName: rom-mob
