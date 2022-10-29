@@ -4,8 +4,8 @@ displayNames:
 modes:
   mobile:
     default: |
-      á š e r t y u i o p ŋ
-      a s d f g h j k l đ ŧ
+      q š e r t y u i o p 
+      a s d f g h j k l ö ä
       ž z č c v b n m w
     shift: |
       Á Š E R T Y U I O P Ŋ
