@@ -1,19 +1,25 @@
 # Keyboards for Romany
 
-[![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/keyboard-rom)](https://github.com/giellalt/keyboard-rom/issues)
-[![Build Status](https://github.com/giellalt/keyboard-rom/workflows/Build%20Keyboards/badge.svg)](https://github.com/giellalt/keyboard-rom/actions)
-[![Doc Status](https://github.com/giellalt/keyboard-rom/workflows/Build%20Docs/badge.svg)](https://github.com/giellalt/keyboard-rom/actions)
-[![License](https://img.shields.io/github/license/giellalt/keyboard-rom)](https://github.com/giellalt/keyboard-rom/blob/main/LICENSE)
+**ARCHIVED!!**
+
+This repository contains an incomplete keyboard for macOS only, and for the general
+`rom` ISO code. Because the way many software platforms work, it can not support
+writing tools like spell checkers and grammar checkers - these require the more
+specific ISO codes for the different Romani varieties.
+
+See [these repositories](https://github.com/giellalt?q=keyboard-rm&type=all) for relevant
+keyboards for some Romani variants.
+
+----
 
 This repository contains source files for
 keyboards for the Romany language. The code
-is licensed under the LGPLv3 license, and the license is
+is licensed under the MIT license, and the license is
 also detailed in the [LICENSE](LICENSE) file. The authors named
 in the AUTHORS file are available for other licensing options.
 
 Documentation:
 
-- [Language specific documentation](https://giellalt.github.io/keyboard-rom)
 - [Keyboard development](https://giellalt.github.io/keyboards/Overview.html)
 
 The plan is to submit the layout definitions to [CLDR](https://cldr.unicode.org)
